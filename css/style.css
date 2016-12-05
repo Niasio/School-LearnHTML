@@ -1,13 +1,3 @@
-/* Header*/
-header {
-    font: Arial;
-    margin: center;
-    text-align:center;
-    
-    background-color: #FF5722; 
- }
-/* Fin Header */
- 
 * {
 	box-sizing: border-box;
 }
@@ -16,9 +6,18 @@ html, body, ul {
 	padding: 0; margin: 0;
 }
 
+/* Header*/
+header {
+    margin: center;
+    text-align:center;
+	height: 400px;
+ }
+/* Fin Header */
+
 /* Navigation */
 nav {
 	text-align: left;
+	background-color:   #e6e6e6;
 }
 
 nav ul,
@@ -64,3 +63,44 @@ nav {
 	top: 0;
 }
 /* Fin Navigation */
+
+/* Boutton */
+.btn {
+  padding: 10px 25px;
+  border: 2px solid #FFF;
+  border-image: linear-gradient(to right, #1DB0DC, #23D0D3) 20 stretch;
+  font-size: 1em;
+  font-weight: bold;
+  color: #FFF;
+  background: linear-gradient(to right, #1DB0DC, #23D0D3);
+  cursor: pointer;
+  transition: all .3s;
+    filter: hue-rotate(0deg) saturate(1);
+}
+.btn:hover,
+.btn:focus {
+  filter: hue-rotate(10deg) saturate(1.2);
+}
+
+.btn-rond {
+  position: relative;
+  border-radius: 7px;
+  border-image: none;
+}
+
+.btn-rond::before,
+.btn-rond::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  border-radius: 6px;
+}
+
+.btn-rond::before {
+  right: -2px;
+  top: -2px;
+  left: -2px;
+  bottom: -2px;
+  background: linear-gradient(to right, #1DB0DC, #23D0D3);
+}
+/* Fin Boutton */
