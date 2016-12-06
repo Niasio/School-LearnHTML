@@ -1,0 +1,14 @@
+Les attributs c'est quoi ? Bien, certains éléments, comme des balises ont besoins d'informations supplémentaire, et celle-ci, c'est l'attribut.
+
+Exemple:
+<h1 style="color: #ffff00;">Texte en couleur</h1>
+
+Les attributs s'inscrivent à la balise ouvrante.
+
+A - l'attribut style
+
+Exemple:
+
+<h1 style="color: #ffff00;">Texte en couleur</h1>
+
+Le texte sera en couleur jaune.
