@@ -147,14 +147,11 @@ footer a:focus:after {
 
 footer a:focus {
 	outline: none;
+	
 } 
 footer {
 	position: sticky;
 	top: 0;
+	text-align : right;
 }
-footer   p{
-    text-align:right;
-    font: Arial;
-    list-style: none;
- 
-}
+
