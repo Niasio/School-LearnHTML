@@ -1,0 +1,139 @@
+II - Les balises
+
+Voici quelques exemples:
+<b>Texte</b>
+Texte en gras
+<h1>Titre</h1>
+<h2>Sous Titre</h2>
+Texte de police plus grande allant de <h1> à <h6>
+
+Bien, commençons par faire du vrai code.
+Sachez qu'il faut toujours commencer une page HTML par:
+<!DOCTYPE html>
+
+Ensuite on va définir le code, comme ceci:
+<html>
+CODE
+</html>
+
+A - Le head
+
+Le <head> est un élément/balise qui contient toutes les informations du site, voici les métadonnées:
+
+<title>
+<style>
+<meta>
+<link>
+<script>
+<base>
+
+1) Le Title
+
+Il définit le titre du site. Voici un exemple du code:
+
+<head>
+<title>Titre du site</title>
+</head>
+
+2) Le Style
+
+Permet de définir le CSS
+
+Exemple:
+
+<style>
+body{background-color: green;}
+h1{color: blue;}
+</style>
+
+3) Le Link
+
+Utiliser pour relier du CSS externe
+
+Exemple:
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+4) Le Meta
+
+Le <meta> est utilisé pour beaucoup de choses. Commençons par l'encodage:
+
+<meta charset="UTF-8">
+
+Pour la description de la page:
+
+<meta name="description" content="Mon site">
+
+Pour les mots-clés:
+
+<meta name="keywords" content="mot, site, clé">
+
+Pour définir l'auteur:
+
+<meta name="author" content="Jimmy F.">
+
+Pour faire actualiser la page du client (en secondes):
+
+<meta http-equiv="refresh" content="5">
+
+5) Le Script
+
+Pour définir un script Javascript, côté client.
+Pour exemple, écrivons "Bonjour" avec l'ID "test"
+
+<script>
+function myFunction {
+document.getElementById("test").innerHTML = "Bonjour";
+}
+</script>
+
+6) Le Base
+
+Permet de spécifier l'URL de base
+
+Exemple:
+
+<base href="http://localhost" target="_blank">
+
+Le <head></head> n'est plus obligatoire depuis le HTML5. On peut mettre directement les métadonnées.
+
+Le head n'est pas visible pour le client directement.
+
+B - Le Body
+
+La balise <body> contient le corps du document html, ce sont toutes les données visible par le client.
+
+Exemple:
+
+<body>
+<h1>Mon site</h1>
+</body>
+
+C - Notre première page
+
+Avec le head et le body on peut commencer à faire quelque chose
+
+Exemple:
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mon site</title>
+<meta charset="UTF-8">
+<meta name="keywords" content="HTML">
+<meta name="description" content="Site en HTML">
+<meta name="author" content="Jimmy F.">
+</head>
+
+<body>
+<h1>Bienvenue sur mon site !</h1>
+<h2>Crée par Jimmy</h2>
+</body>
+</html>
+
+Apprenons une nouvelle balise, le <p>
+P ? Comme paragraphe ou plutôt Paragraph  en anglais.
+Il est utilisé pour faire des paragraphes donc.
+Cette balises peut être suivie par plusieurs autres balises.
+Pour sauter une ligne entre deux paragraphes il y a la balise <br />
+

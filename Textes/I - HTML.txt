@@ -1,0 +1,11 @@
+Chapitre I
+
+I- Le HTML
+Le HTML a été inventé en 1990 par Tim Berners-Lee. C'est un language de balisage.
+Que veut dire HTML ? 
+H = Hyper car c'est contraire au linéaire
+T = Text soit Texte en français
+M = Mark-up qui correspond au balisage
+L = Language soit Langage en français
+
+Ca nous fait donc: Hyper Text Mark-up Language
