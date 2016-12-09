@@ -1,0 +1,11 @@
+<a href="http://www.google.fr/">Cliquez ici</a>
+Lien externe
+
+<a href="page2.html">Cliquez ici</a>
+Lien interne
+
+On peut aussi faire un lien pour placer le client sur un titre dans la même page
+
+<h1 id="titre1">Titre 1</h1>
+On définit ici le titre avec une ID
+
