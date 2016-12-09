@@ -1,11 +1,13 @@
+/* Début All */
 * {
 	box-sizing: border-box;
 }
 
 html, body, ul {
-	padding: 0; margin: 0;
-    font: helvetica,Arial;
+	padding: 0; 
+	margin: 0;
 }
+/* Fin All */
 
 /* Header*/
 header {
@@ -21,7 +23,12 @@ header {
 nav {
 	text-align: left;
 	background-color:   #e6e6e6;
-    
+}
+
+.nav.fixed{
+  position:fixed;
+  top:0;
+  z-index:1000;
 }
 
 nav ul,
@@ -108,12 +115,12 @@ nav {
   background: linear-gradient(to right, #1DB0DC, #23D0D3);
 }
 /* Fin Boutton */
+
+/* Début Footer */
 footer {
     background-color: #e6e6e6;
     text-align: left;
     height: 110px;
-    
-    
 }
 footer a {
 	position: relative;
@@ -154,4 +161,4 @@ footer {
 	top: 0;
 	text-align : right;
 }
-
+/* Fin Footer */
