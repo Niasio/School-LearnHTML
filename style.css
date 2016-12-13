@@ -75,6 +75,39 @@ nav {
 }
 /* Fin Navigation */
 
+/* Article */
+article {
+    background-color: white;
+    text-align: justify;
+    padding: 2em 0em 3em; 
+}
+
+article h1 {
+    font-size: 1.8em;
+    font-style: bold;
+    margin: 1.5em 0.4em 0;
+    color: #0091ea;
+}
+
+article h2 {
+    font-size: 1.4em;
+    font-style: bold;
+    margin: 1.5em 0.6em 0;
+    color: #00b0ff;
+}
+
+article h3 {
+    font-size: 1.0em;
+    font-style: bold;
+    margin: 1.5em 0.8em 0;
+    color: #40c4ff;
+}
+
+article  p{
+    margin: 1.5em 0.8em 0;
+}
+/* Fin Article */
+
 /* Boutton */
 .btn {
   padding: 10px 25px;
