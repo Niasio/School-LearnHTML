@@ -1,0 +1,171 @@
+/* Début All */
+* {
+	box-sizing: border-box;
+}
+
+html, body, ul {
+	padding: 0; 
+	margin: 0;
+}
+/* Fin All */
+
+/* Header*/
+header {
+    margin: center;
+    text-align:center;
+	height: 400px;
+    margin-top: 0;
+    background-color: #e6e6e6;
+ }
+/* Fin Header */
+
+/* Navigation */
+nav {
+	text-align: left;
+	background-color:   #e6e6e6;
+}
+
+.nav.fixed{
+  position:fixed;
+  top:0;
+  z-index:1000;
+}
+
+nav ul,
+nav li {
+	display: inline;
+	list-style: none;
+}
+nav a {
+	position: relative;
+	display: inline-block;
+	padding: 8px 20px;
+	vertical-align: middle;
+	font-weight: 300; 
+	letter-spacing: 0.025em;
+	color: inherit;
+	text-decoration: none;
+}
+
+nav a:after {
+	content: "";
+	position: absolute;
+	bottom: 0; right: 20px; left: 20px;
+	height: 2px;
+	background-color: #B13C2E;
+
+
+	opacity: 0;
+	transform: translateY(5px);
+	transition: all .4s;
+}
+
+nav a:hover:after,
+nav a:focus:after {
+	opacity: .6;
+	transform: translateY(0);
+}
+
+nav a:focus {
+	outline: none;
+} 
+nav {
+	position: sticky;
+	top: 0;
+}
+/* Fin Navigation */
+
+/* Boutton */
+.btn {
+  padding: 10px 25px;
+  border: 2px solid #FFF;
+  border-image: linear-gradient(to right, #1DB0DC, #23D0D3) 20 stretch;
+  font-size: 1em;
+  font-weight: bold;
+  color: #FFF;
+  background: linear-gradient(to right, #1DB0DC, #23D0D3);
+  cursor: pointer;
+  transition: all .3s;
+    filter: hue-rotate(0deg) saturate(1);
+}
+.btn:hover,
+.btn:focus {
+  filter: hue-rotate(10deg) saturate(1.2);
+}
+
+.btn-rond {
+  position: relative;
+  border-radius: 7px;
+  border-image: none;
+}
+
+.btn-rond::before,
+.btn-rond::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  border-radius: 6px;
+}
+
+.btn-rond::before {
+  right: -2px;
+  top: -2px;
+  left: -2px;
+  bottom: -2px;
+  background: linear-gradient(to right, #1DB0DC, #23D0D3);
+}
+/* Fin Boutton */
+
+/* Début Footer */
+footer {
+    background-color: #e6e6e6;
+    text-align: right;
+    height: 110px;
+    position: float;
+    bottom: 0px
+}
+footer  a {
+	position: relative;
+	display: inline-block;
+	padding: 8px 5px;
+	vertical-align: middle;
+	font-weight: 300; 
+	letter-spacing: 0.025em;
+	color: inherit;
+	text-decoration: none;
+    text-align: left;
+}
+footer li a {
+    text-align:left;
+    }
+
+footer  a:after {
+	content: "";
+	position: absolute;
+	bottom: 0; right: 20px; left: 20px;
+	height: 2px;
+	background-color: #B13C2E;
+
+
+	opacity: 0;
+	transform: translateY(5px);
+	transition: all .4s;
+}
+
+footer  a:hover:after,
+footer  a:focus:after {
+	opacity: .6;
+	transform: translateY(0);
+}
+
+footer  a:focus {
+	outline: none;
+	
+} 
+
+footer  li {
+	display: inline;
+	list-style: right;
+	
+}
+/* Fin Footer */
