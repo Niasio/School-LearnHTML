@@ -75,6 +75,39 @@ nav {
 }
 /* Fin Navigation */
 
+/* Article */
+article {
+    background-color: white;
+    text-align: justify;
+    padding: 2em 0em 3em; 
+}
+
+article h1 {
+    font-size: 1.8em;
+    font-style: bold;
+    margin: 1.5em 0.4em 0;
+    color: #0091ea;
+}
+
+article h2 {
+    font-size: 1.4em;
+    font-style: bold;
+    margin: 1.5em 0.6em 0;
+    color: #00b0ff;
+}
+
+article h3 {
+    font-size: 1.0em;
+    font-style: bold;
+    margin: 1.5em 0.8em 0;
+    color: #40c4ff;
+}
+
+article  p{
+    margin: 1.5em 0.8em 0;
+}
+/* Fin Article */
+
 /* Boutton */
 .btn {
   padding: 10px 25px;
@@ -119,10 +152,12 @@ nav {
 /* Début Footer */
 footer {
     background-color: #e6e6e6;
-    text-align: left;
+    text-align: right;
     height: 110px;
+    position: float;
+    bottom: 0px
 }
-footer a {
+footer  a {
 	position: relative;
 	display: inline-block;
 	padding: 8px 5px;
@@ -131,9 +166,13 @@ footer a {
 	letter-spacing: 0.025em;
 	color: inherit;
 	text-decoration: none;
+    text-align: left;
 }
+footer li a {
+    text-align:left;
+    }
 
-footer a:after {
+footer  a:after {
 	content: "";
 	position: absolute;
 	bottom: 0; right: 20px; left: 20px;
@@ -146,19 +185,20 @@ footer a:after {
 	transition: all .4s;
 }
 
-footer a:hover:after,
-footer a:focus:after {
+footer  a:hover:after,
+footer  a:focus:after {
 	opacity: .6;
 	transform: translateY(0);
 }
 
-footer a:focus {
+footer  a:focus {
 	outline: none;
 	
 } 
-footer {
-	position: sticky;
-	top: 0;
-	text-align : right;
+
+footer  li {
+	display: inline;
+	list-style: right;
+	
 }
 /* Fin Footer */
