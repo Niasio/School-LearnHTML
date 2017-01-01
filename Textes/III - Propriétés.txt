@@ -1,0 +1,65 @@
+color
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+background
+
+A - Le color
+
+h1 {
+color: #ff0000;
+}
+
+B - background-color
+
+body {
+background-color: #FFCC66;
+}
+h1 {
+background-color:#FC9804;
+}
+
+C - background-image
+
+body {
+background-color: #ffff00;
+background-image: url("img.png");
+}
+
+Possibilité de mettre un lien externe
+
+D - background-repeat
+
+Permet de répéter, ou non, le background
+Voici ses valeurs:
+
+background-repeat: repeat-x
+Répète horizontalement
+
+background-repeat: repeat-y
+Répète verticalement
+
+background-repeat: repeat
+Répète en verticale et en horizontale (Diagonale)
+
+E - background-attachment
+
+Valeur:
+background-attachment: scroll
+Image qui défile
+
+background-attachment: fixed
+Image bloqué
+
+F - background-position
+
+Valeur: en cm, en % ou textuelle.
+
+body {
+background-image: url("img.gif");
+background-position: top right;
+}
+
+top right vaut 2cm 2cm ou 50% 25%
