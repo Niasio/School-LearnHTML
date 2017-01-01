@@ -1,0 +1,8 @@
+A - Le font-size
+
+p {
+font-size: 12pt;
+}
+
+Possible de le mettre en %
+

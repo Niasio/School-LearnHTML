@@ -1,0 +1,5 @@
+A - Le text-align
+
+p {
+text-align: center;
+}
