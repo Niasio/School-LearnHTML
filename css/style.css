@@ -6,6 +6,8 @@
 html, body, ul {
 	padding: 0; 
 	margin: 0;
+	font-family: Verdana, sans-serif;
+	width:100%;
 }
 /* Fin All */
 
@@ -85,7 +87,7 @@ article {
 article h1 {
     font-size: 1.8em;
     font-style: bold;
-    margin: 1.5em 0.4em 0;
+    margin: 0 0.4em 0;
     color: #0091ea;
 }
 
@@ -105,6 +107,15 @@ article h3 {
 
 article  p{
     margin: 1.5em 0.8em 0;
+}
+
+article  li{
+    margin: 0em 3em 0;
+}
+
+#red {
+	color: red;
+    font-weight:bold;
 }
 /* Fin Article */
 
