@@ -1,0 +1,15 @@
+A - Span
+
+Pour le HTML, c'est rien, mais pour le CSS c'est utile ! Il permet de colorer un mot dans une phrase par exemple.
+
+<p>Je suis en <span id="word1">rouge</span></p>
+
+CSS:
+
+#word1 {
+color: red;
+}
+
+B - Le div
+
+Même fonctionnement que pour le span sauf que le div prend tout un bloc.
