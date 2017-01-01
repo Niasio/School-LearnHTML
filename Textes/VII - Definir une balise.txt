@@ -1,0 +1,19 @@
+A - Avec class=" "
+
+<p class="text1">Texte en bleu</p>
+
+Du côté CSS:
+
+p.text1 {
+color: blue;
+}
+
+B - Avec id=" "
+
+<p id="text1">Texte en bleu</p>
+
+Du côté CSS:
+
+#text1 {
+color: blue;
+}
