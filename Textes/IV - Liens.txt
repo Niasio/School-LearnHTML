@@ -12,3 +12,8 @@ On définit ici le titre avec une ID
 <a href="#titre1">Cliquez</a>
 Là on dirige le lien sur titre1
 Le # indique que l'on reste sur la même page.
+
+On peut aussi indiquer un titre (quand on passe son curseur sur le lien) à un lien
+Comme ceci:
+
+<a href="page.html" title="Page 2 HTML">Cliquez ici</a>

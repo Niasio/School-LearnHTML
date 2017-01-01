@@ -1,0 +1,11 @@
+Très simple !
+
+<img src="image.jpeg" alt="Nom" />
+
+Apprenons plus sur le HTML et les images
+
+<img src="http://www.site.com/img/1.png" />
+Ici, on va chercher une image sur un site, pour l'obtenir sur le notre.
+
+On peut aussi appliquer un lien sur une image avec la balise <a>
+<a href="monsite.fr"><img src="image.jpeg"/></a>
