@@ -1,0 +1,28 @@
+HTML:
+
+<body bgcolor="#ffff00">
+
+CSS:
+body {
+   background-color: #ffff00;
+}
+
+Le CSS marche donc comme ceci:
+
+selector {
+property:value;
+}
+
+A - L'insérer
+
+On inscrit dans le <head></head>
+
+<html>
+<head>
+<title>Page test</title>
+<link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+[SUITE DU CODE]
+
+</html>
