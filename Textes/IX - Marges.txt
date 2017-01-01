@@ -1,0 +1,48 @@
+Elément: margin
+
+Exemple: 
+
+body {
+margin: 100px 40px 10px 70px;
+}
+
+p {
+margin: 5px 50px 5px 50px;
+}
+
+Ordre valeur margin:
+top right bottom left
+Soit
+Haut Droite Bas Gauche
+
+A - Les types
+
+thin
+Fin
+
+medium
+Moyen
+
+thick
+Gros
+
+Ces trois valeurs s'applique avec le border-width
+
+dotted
+dashed
+solid
+double
+groove
+ridge
+inset
+outset
+
+Ces huit valeurs s'applique avec le border-style
+
+Exemple:
+
+h1 {
+border-width: thick;
+border-style: dotted;
+border-color: gold;
+}
