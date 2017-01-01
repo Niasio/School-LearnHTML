@@ -1,0 +1,21 @@
+A - Active
+
+Surligne le lien lors du clique
+
+a:active {
+background-color: red;
+}
+
+B - Hover
+
+Change la couleur du lien quand on place le curseur dessus.
+
+a:hover {
+color: orange;
+}
+
+C - Supprimer le soulignement du lien
+
+a {
+text-decoration: none;
+}
