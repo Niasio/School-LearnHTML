@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<!-- Head contenant les informations -->
+	<head>
+		<meta charset="UTF-8" />
+		<title>Apprendre le HTML</title>
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<meta name="keywords" content="html" />
+		<meta name="author" content="Jimmy F. et Thomas B." />
+		<meta name="description" content="Dans ce tutoriel nous allons voir étape par étape comment concevoir un site HTML et CSS." />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	</head>
+	
+	<!-- Body contenant la page visible par le client -->
+	<body>
+		<!-- Header -->
+		<header>
+			<img src="../images/header.jpg">
+		</header>
+	
+		<!-- Barre de naviagtion -->
+		<nav class="main-nav">
+			<ul>
+                <li><a href="../index.html"> <img src="../images/Index.png"> </a> </li>
+				<li><a href="page1.html"> <img src="../images/page1.png"> </a> </li>
+				<li><a href="page2.html"> <img src="../images/page2.png"> </a> </li>
+				<li><a href="page3.html"> <img src="../images/page3.png"> </a> </li>
+				<li><a href="page4.html"> <img src="../images/page4.png"> </a> </li>
+				<li><a href="page5.html"> <img src="../images/page5.png"> </a> </li>
+				<li><a href="page6.html"> <img src="../images/page6.png"> </a> </li>
+				<li><a href="page7.html"> <img src="../images/page7.png"> </a> </li>
+				<li><a href="page8.html"> <img src="../images/page8.png"> </a> </li>
+				<li><a href="page9.html"> <img src="../images/page9.png"> </a> </li>
+				<li><a href="page10.html"> <img src="../images/page10.png"> </a> </li>
+			</ul>
+		</nav>   
+
+		<!-- Article -->
+		<article>		
+			<h1>Etape 7</h1>
+				<h2>Les propriétés</h2>
+					<p>Les propriétés sont donc:</p>
+						<ul>
+							<li>color</li>
+							<li>background-color</li>
+							<li>background-image</li>
+							<li>background-repeat</li>
+							<li>background-attachment</li>
+							<li>background-position</li>
+							<li>background</li>
+						</ul>
+						
+						<h3>A - Le color</h3>
+							<p id="gris">h1 {<br>
+color: #ff0000;<br>
+}</p>
+							
+						<h3>B - Le background-color</h3>
+							<p id="gris">body {<br>
+background-color: #FFCC66;<br>
+}<br>
+<br>
+h1 {<br>
+background-color:#FC9804;<br>
+}</p>
+
+						<h3>C - Le background-image</h3>
+
+							<p id="gris">body {<br>
+background-color: #ffff00;<br>
+background-image: url("img.png");<br>
+}</p>
+							<p>Possibilité de mettre un lien externe</p>
+						<h3>D - Le background-repeat</h3>
+							<p>Permet de répéter le background<br>
+							Voici ses valeurs:</p>
+						<br>
+						<!-- Tableau -->
+						<table class="table-fill">
+							<thead>
+								<tr>
+									<th class="text-left">Valeur</th>
+									<th class="text-left">Explications</th>
+								</tr>
+							</thead>
+							<tbody class="table-hover">
+								<tr>
+									<td class="text-left">background-repeat: repeat-x</td>
+									<td class="text-left">Répète horizontalement</td>
+								</tr>
+								<tr>
+									<td class="text-left">background-repeat: repeat-y</td>
+									<td class="text-left">Répète verticalement</td>
+								</tr>
+								<tr>
+									<td class="text-left">background-repeat: repeat</td>
+									<td class="text-left">Répète en verticale et en horizontale (Diagonale)</td>
+								</tr>
+							</tbody>
+						</table>
+						<br>
+							
+						<h3>E - Le background-attachment</h3>
+						<br>
+						<!-- Tableau -->
+						<table class="table-fill">
+							<thead>
+								<tr>
+									<th class="text-left">Valeur</th>
+									<th class="text-left">Explications</th>
+								</tr>
+							</thead>
+							<tbody class="table-hover">
+								<tr>
+									<td class="text-left">background-attachment: scroll</td>
+									<td class="text-left">Image qui défile</td>
+								</tr>
+								<tr>
+									<td class="text-left">background-attachment: fixed</td>
+									<td class="text-left">Image bloqué</td>
+								</tr>
+							</tbody>
+						</table>
+						<br>
+							
+						<h3>F - background-position</h3>
+							<p>Valeur: en cm, en % ou textuelle.</p>
+							<p id="gris">body {<br>
+background-image: url("img.gif");<br>
+background-position: top right;<br>
+}</p>
+							<p>top right vaut 2cm 2cm ou 50% 25%</p>
+		</article>
+		
+		<!-- Footer -->
+		<footer>
+            <ul class="nom" >
+                <li><a href="http://saintesprit.com/accueil.php"> <img src="../images/STES.png"> </a> </li>
+                <li>Site créé pour le projet ICN par BLANQUET Thomas et FONTAINE Jimmy à l'institution du Saint esprit 2016-2017</li>
+            </ul>
+        </footer>
+		 
+	</body>
+</html>
