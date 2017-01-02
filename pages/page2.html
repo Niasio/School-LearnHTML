@@ -73,16 +73,106 @@
 						<br>
 					<p>Texte de police plus grande allant de &lt;h1&gt à &lt;h6&gt</p>
 						
-					<h3> A quoi sert t'il ?</h3>
-						<p> Il faut une maniere de mettre en forme les site, c'est là ou intervient l'html, c'est le langage le plus repandu pour des sites web ainsi que l'un des plus simple.</p>
-					<h3> Que veut t'il dire ? </h3>
-						<p> HTML veut dire :</p>
+						<h3>Commençons par faire du vrai code</h3>
+							<p>Sachez qu'il faut toujours commencer une page HTML par:</p>
+							<p id="gris">&lt;!DOCTYPE html></p>
+							<p>Ensuite on va définir le code, comme ceci:</p>
+							<p id="gris">&lt;html></p>
+							<p>CODE</p>
+							<p id="gris">&lt;/html></p>
+							
+				<h2>A - Le head</h2>
+					<p>Le &lt;head> est un élément/balise qui contient toutes les informations du site, voici les métadonnées:</p>
 						<ul>
-							<li><span id="red">H</span> = Hyper car c'est contraire au linéaire</li>
-							<li><span id="red">T</span> = Text soit Texte en français</li>
-							<li><span id="red">M</span> = Mark-up qui correspond au balisage</li>
-							<li><span id="red">L</span> = Language soit Langage en français</li>
+							<li>&lt;title></li>
+							<li>&lt;style></li>
+							<li>&lt;meta></li>
+							<li>&lt;link></li>
+							<li>&lt;script></li>
+							<li>&lt;base></li>
 						</ul>
+						
+						<h3>1) Le Title</h3>
+							<p>Il définit le titre du site. Voici un exemple du code:</p>
+							<p id="gris">&lt;head><br>
+							&lt;title>Titre du site&lt;/title><br>
+							&lt;/head></p>
+							
+						<h3>2) Le Style</h3>
+							<p>Permet de définir le CSS</p>
+							<p>Exemple:</p>
+							<p id="gris">&lt;style><br>
+							body{background-color: green;}<br>
+							h1{color: blue;}<br>
+							&lt;/style></p>
+
+						<h3>3) Le Link</h3>
+							<p>Utiliser pour relier du CSS externe</p>
+							<p>Exemple:</p>
+							<p id="gris">&lt;link rel="stylesheet" type="text/css" href="css/style.css" /></p>
+							
+						<h3>4) Le Meta</h3>
+							<p>Le &lt;meta> est utilisé pour beaucoup de choses. Commençons par l'encodage:</p>
+							<p id="gris">&lt;meta charset="UTF-8"></p>
+							<p>Pour la description de la page:</p>
+							<p id="gris">&lt;meta name="description" content="Mon site"></p>
+							<p>Pour les mots-clés:</p>
+							<p id="gris">&lt;meta name="keywords" content="mot, site, clé"></p>
+							<p>Pour définir l'auteur:</p>
+							<p id="gris">&lt;meta name="author" content="Jimmy F."></p>
+							<p>Pour faire actualiser la page du client (en secondes):</p>
+							<p id="gris">&lt;meta http-equiv="refresh" content="5"></p>
+							
+						<h3>5) Le Script</h3>
+							<p>Pour définir un script Javascript, côté client.</p>
+							<p>Pour exemple, écrivons "Bonjour" avec l'ID "test"</p>
+							<p id="gris">&lt;script><br>
+							function myFunction {<br>
+							document.getElementById("test").innerHTML = "Bonjour";<br>
+							}<br>
+							&lt;/script></p>
+							
+						<h3>6) Le Base</h3>
+							<p>Permet de spécifier l'URL de base</p>
+							<p>Exemple:</p>
+							<p id="gris">&lt;base href="http://localhost" target="_blank"></p>
+							<p>Le &lt;head>&lt;/head> n'est plus obligatoire depuis le HTML5. On peut mettre directement les métadonnées.</p>
+							<p>Le head n'est pas visible pour le client directement.</p>
+				
+				<h2>B - Le Body</h2>
+					<p>La balise &lt;body> contient le corps du document html, ce sont toutes les données visible par le client.</p>
+					<p>Exemple:</p>
+					<p id="gris">&lt;body><br>
+					&lt;h1>Mon site&lt;/h1><br>
+					&lt;/body>
+					</p>
+				
+				<h2>C - Notre première page</h2>
+					<p>Avec le head et le body on peut commencer à faire quelque chose</p>
+					<p>Exemple:</p>
+					<p id="gris">&lt;!DOCTYPE html><br>
+&lt;html><br>
+&lt;head><br>
+&lt;title>Mon site&lt;/title><br>
+&lt;meta charset="UTF-8"><br>
+&lt;meta name="keywords" content="HTML"><br>
+&lt;meta name="description" content="Site en HTML"><br>
+&lt;meta name="author" content="Jimmy F."><br>
+&lt;/head><br>
+<br>
+&lt;body><br>
+&lt;h1>Bienvenue sur mon site !&lt;/h1><br>
+&lt;h2>Crée par Jimmy&lt;/h2><br>
+&lt;/body><br>
+&lt;/html><br>
+					</p>
+					
+					<p>Apprenons une nouvelle balise, le &lt;p><br>
+P ? Comme paragraphe ou plutôt Paragraph  en anglais.<br>
+Il est utilisé pour faire des paragraphes donc.<br>
+Cette balises peut être suivie par plusieurs autres balises.<br>
+Pour sauter une ligne entre deux paragraphes il y a la balise &lt;br /></p>
+				
 		</article>
 		
 		<!-- Footer -->
