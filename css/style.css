@@ -117,6 +117,10 @@ article  li{
 	color: red;
     font-weight:bold;
 }
+
+#center {
+	text-align: center;
+}
 /* Fin Article */
 
 /* Boutton */
@@ -161,17 +165,6 @@ article  li{
 /* Fin Boutton */
 
 /* Début Tableau */
-
-.table-title h3 {
-   color: #fafafa;
-   font-size: 30px;
-   font-weight: 400;
-   font-style:normal;
-   font-family: "Roboto", helvetica, arial, sans-serif;
-   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
-   text-transform:uppercase;
-}
-
 .table-fill {
   background: white;
   border-radius:3px;
