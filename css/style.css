@@ -18,7 +18,20 @@ header {
 	height: 400px;
     margin-top: 0;
     background-color: #e6e6e6;
+	background-image: url("../images/header.jpg")
  }
+ 
+header h1 {
+	background-color: #3498db;
+	color: #ffffff; 
+	font-family: 'Raleway',sans-serif; 
+	font-size: 62px; 
+	font-weight: 800; 
+	line-height: 72px; 
+	margin: 0 0 24px; 
+	text-align: center; 
+	text-transform: uppercase;
+}
 /* Fin Header */
 
 /* Navigation */
