@@ -39,31 +39,94 @@
 
 		<!-- Article -->
 		<article>		
-			<h1>Etape 9</h1>
-				<h2>Définir une balise</h2>
-					<h3>A - Avec class=" "</h3>
-						<p id="gris">&lt;p class="text1">Texte en bleu&lt;/p></p>
-						<p>Du côté CSS:</p>
-						<p id="gris">p.text1 {<br>
-color: blue;<br>
+			<h1>Etape 10</h1>
+				<h2>Les marges</h2>
+						<p>Elément: margin</p>
+						<p>Exemple:</p>
+						<p id="gris">body {<br>
+margin: 100px 40px 10px 70px;<br>
+}<br>
+<br>
+p {<br>
+margin: 5px 50px 5px 50px;<br>
+}
+</p>
+						<p>Ordre valeur margin:<br>
+top right bottom left<br>
+Soit<br>
+Haut Droite Bas Gauche</p>
+
+					<h3>A - Les types</h3>
+						<br>
+						<!-- Tableau -->
+						<table class="table-fill">
+							<thead>
+								<tr>
+									<th class="text-left">Valeur</th>
+									<th class="text-left">Explications</th>
+								</tr>
+							</thead>
+							<tbody class="table-hover">
+								<tr>
+									<td class="text-left">thin</td>
+									<td class="text-left">Fin</td>
+								</tr>
+								<tr>
+									<td class="text-left">medium</td>
+									<td class="text-left">Moyen</td>
+								</tr>
+								<tr>
+									<td class="text-left">thick</td>
+									<td class="text-left">Gros</td>
+								</tr>
+							</tbody>
+						</table>
+						<br>
+						<p>Ces trois valeurs s'appliquent avec le border-width</p>
+						<br>
+						<br>
+						<!-- Tableau -->
+						<table class="table-fill">
+							<thead>
+								<tr>
+									<th class="text-center">Valeur</th>
+								</tr>
+							</thead>
+							<tbody class="table-hover">
+								<tr>
+									<td class="text-center">dotted</td>
+								</tr>
+								<tr>
+									<td class="text-center">dashed</td>
+								</tr>
+								<tr>
+									<td class="text-center">solid</td>
+								</tr>								
+								<tr>
+									<td class="text-center">double</td>
+								</tr>								
+								<tr>
+									<td class="text-center">groove</td>
+								</tr>								
+								<tr>
+									<td class="text-center">ridge</td>
+								</tr>								
+								<tr>
+									<td class="text-center">inset</td>
+								</tr>								
+								<tr>
+									<td class="text-center">outset</td>
+								</tr>
+							</tbody>
+						</table>
+						<br>
+						<p>Ces huit valeurs s'appliquent avec le border-style</p>
+						<p>Exemple:</p>
+						<p id="gris">h1 {<br>
+border-width: thick;<br>
+border-style: dotted;<br>
+border-color: gold;<br>
 }</p>
-					<h3>B - Avec id=" "</h3>
-						<p id="gris">&lt;p id="text1">Texte en bleu&lt;/p></p>
-						<p>Du côté CSS:</p>
-						<p id="gris">#text1 {<br>
-color: blue;<br>
-}</p>
-		
-				<h2>Div et Span</h2>
-					<h3>A - Span</h3>
-						<p>Pour le HTML, c'est rien, mais pour le CSS c'est utile ! Il permet de colorer un mot dans une phrase par exemple.</p>
-						<p id="gris">&lt;p>Je suis en &lt;span id="word1">rouge&lt;/span>&lt;/p></p>
-						<p>CSS:</p>
-						<p id="gris">#word1 {<br>
-color: red;<br>
-}</p>
-					<h3>B - Le div</h3>			
-						<p>Même fonctionnement que pour le span sauf que le div prend tout un bloc.</p>
 		</article>
 		
 		<!-- Footer -->
